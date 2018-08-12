@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Register" verbose="1" >
+<!--    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>-->
+    <parameter name="browser" value="chrome" />
+    <test name="Registration test" >
+        <classes>
+            <class name="com.demoqa.RegisterTest" />
+        </classes>
+    </test>
+    <test name="Login test" >
+        <classes>
+            <class name="com.demoqa.LogInTest" />
+        </classes>
+    </test>
+
+</suite>
